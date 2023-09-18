@@ -7,6 +7,7 @@
   border: none;
   margin: 0;
 
+  
   label {
     font-size: rem(14);
     font-weight: 700;
@@ -55,14 +56,14 @@
     border-radius: 50%;
     background-color: var(--toggle-button);
     transition: all 150ms ease-in-out;
-  }
+  } 
 
   #light:checked ~ .toggle__button {
     left: calc(100% - 21px);
     right: 3px;
   }
 
-  #system:checked ~ .toggle__button {
+  #dark:checked ~ .toggle__button {
     left: 50%;
     right: auto;
     transform: translate(-50%);
